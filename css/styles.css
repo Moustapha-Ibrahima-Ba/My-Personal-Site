@@ -1,0 +1,150 @@
+/*** BODY ***/
+body {
+    background-color: #1086a0;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+
+hr {
+    /* border-color: grey; */
+    border-color: RGB(47, 207, 300);
+    border-style: none; /* There is no border at all (The hr is unseen)*/
+    border-top-style: dotted; /* Only border is the top side*/
+    border-width: 5px; /* Sets the width of an element's border */
+    width: 5%;
+    margin-bottom: 90px;
+  }
+
+/*** TOP-CONTAINER ***/
+.top-container {
+    background-color: #87CEEB;
+    position: relative;
+}
+
+.description {
+    left: 18%;
+    position: absolute;
+    top: 16%;
+    color: #66BFBF;
+}
+
+.job {
+    margin-top: 0;
+    color: #66BFBF;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile_picture {
+    width: 15%;
+    margin-top: 20px;
+}
+
+/* headers */
+h1 {
+    color: #66BFBF;
+    /* color: RGB(47, 207, 300); */
+    font-family: 'My Soul', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 0 auto;
+}
+
+h2{
+    /* color: #66BFBF; */
+    color: RGB(47, 207, 300);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: RGB(47, 207, 300);
+    margin-bottom: 60px;
+}
+
+.fontaine {
+    height: 100%;
+    width: 100%;
+}
+
+/*** MIDDLE-CONTAINER ***/
+.middle-container {
+    margin-bottom: 90px;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.programming-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.management-img {
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me p {
+    margin-bottom: 90px;
+}
+
+.contact-me h2 {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+/*** BOTTOM-CONTAINER ***/
+.bottom-container {
+    background-color: #66BFBF;
+    height: 100px;
+    margin-top: 45px;
+    line-height: 3;
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+.signature {
+    margin: 0;
+    margin-top: 20px;
+    color: #EAF6F6;
+}
+
+/* anchors */
+a {
+    color: #11999E;
+    margin-left: 45px;
+}
+
+.btn {
+    background: #12a3a8;
+    background-image: -webkit-linear-gradient(top, #12a3a8, #3887b5);
+    background-image: -moz-linear-gradient(top, #12a3a8, #3887b5);
+    background-image: -ms-linear-gradient(top, #12a3a8, #3887b5);
+    background-image: -o-linear-gradient(top, #12a3a8, #3887b5);
+    background-image: linear-gradient(to bottom, #12a3a8, #3887b5);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 14px 40px 13px 36px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #11999E;
+    text-decoration: none;
+  }
